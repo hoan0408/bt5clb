@@ -1,0 +1,40 @@
+* {
+
+    box-sizing: border-box;
+    font-family: Popins, sans-serif;
+}
+
+.wrapper {
+    padding: 30px 40px;
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box box-icon {
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    font-size: 14px;
+    margin: -15px 5px 15px;
+}
+
+.wrapper .btn {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}

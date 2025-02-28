@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./src/style.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div class="flex justify-around items-center space-x-20 text-white w-screen h-[60px] border drop-shadow-xl bg-white">
+    <button onclick="profile()" class="ml-4 bg-gray-600 h-[36px] rounded-lg w-[72px] cursor-pointer">
+      Profile
+    </button>
+    <button onclick="login()" class="bg-gray-600 h-[36px] rounded-lg w-[72px] cursor-pointer">
+      Login
+    </button>
+  </div>
+  <div id="app"></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
